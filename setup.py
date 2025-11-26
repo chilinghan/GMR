@@ -28,5 +28,8 @@ setup(
     "redis[hiredis]",
     "imageio[ffmpeg]",
   ],
+  extras_require={
+    "dex": ["dex-retargeting"],  # Optional dependency for specialized hand retargeting
+  },
   python_requires='>=3.10',
 )
